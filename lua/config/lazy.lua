@@ -25,6 +25,6 @@ end
 -- Install Plugins
 return lazy.setup("plugins", {
   git = {
-    url_format = "https://github.com/%s.git"
+    url_format = "git@github.com:%s.git"
   }
 })
