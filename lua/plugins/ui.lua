@@ -34,7 +34,6 @@ return {
 			sections = { lualine_c = { require('auto-session.lib').current_session_name } },
 		}
 	},
-	{ 'lukas-reineke/indent-blankline.nvim', opts = {} },
 	{
 		'rcarriga/nvim-notify',
 		opts = { background_colour = '#000000', },
